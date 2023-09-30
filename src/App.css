@@ -1,0 +1,51 @@
+.background {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#quote-box {
+  width: 500px;
+  margin: 0 auto;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  text-align: left;
+  background-color: wheat;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+#title {
+  color:rgb(0, 0, 0);
+  text-align: center;
+  display: flex;
+}
+.quote-cintent {
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+#author {
+  text-align: right;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+button, a {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.5rem 1.3rem;
+  font-weight: 480;
+  background: #2d2d2d;
+  cursor: pointer;
+}
